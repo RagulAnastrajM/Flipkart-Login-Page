@@ -1,0 +1,189 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: #2874f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+.plus-color{
+  color: yellow;
+  font-weight: 900;
+}
+.logo p{
+  color: white;
+  position: relative;
+  top: -5px;
+}
+
+.search{
+  background-color: white;
+  padding: 8px;
+  width: 420px;
+  height: 30px;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #2874f0;
+  box-shadow: -7px -7px 10px rgba(0,0,0,0.1),7px 7px 10px rgba(0,0,0,0.1);
+  border-radius: 2px;
+}
+.search input{
+  width: 380px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+.loginbtn{
+  padding: 7px 40px;
+  font-size: 16px;
+  font-weight: 550;
+  border: none;
+  outline: none;
+  color: #2874f0;
+}
+.navlink{
+  margin: 0px 20px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.angledownicon i{
+  font-size: 10px;
+}
+
+.topproductnav{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+.topproductbar{
+  width: 80px;
+  height: 112px;
+  cursor: pointer;
+  flex: 1;
+}
+.topproductbar p{
+  font-weight: 600;
+  margin-top: 10px;
+
+
+
+}
+.topproductbar .angledownicon i{
+  font-size: 10px;}
+body {
+  background-color: #f1f3f6;
+}
+
+.login-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-box {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-left {
+  background-color: #2874f0;
+  color: white;
+  padding: 30px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-left h2 {
+  font-weight: 500;
+}
+
+.login-left p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-right {
+  padding: 30px;
+  width: 60%;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2874f0;
+}
+
+.btn-login {
+  background-color: #fb641b;
+  color: white;
+  width: 100%;
+}
+
+.create-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.create-account a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.footer  {
+  background-color: #172337;
+  color: white;
+  padding: 50px;
+  font-size: 14px;
+  
+  
+}
+
+.footer a {
+    
+  color: #ddd;
+  text-decoration:none;
+  
+}
+
+.footer h6 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.col-md-1{
+    margin-right: 10px;
+}
+.col-md-3{
+    margin-right: -80px;
+}
+.col-md-4{
+    margin-right: -190px;
+}
+.col-md-5{
+    margin-right: -20%;
+}
+
+
+
+
+
+   
+
+
